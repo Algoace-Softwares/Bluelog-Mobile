@@ -4,7 +4,7 @@
     "slug": "Odiisea",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./src/assets/images/icon.png",
     "scheme": "odiisea",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -13,7 +13,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./src/assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true
@@ -21,17 +21,39 @@
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./src/assets/images/favicon.png"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./src/assets/images/splash-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": {
+            "OpenSans-Regular": "./src/assets/fonts/OpenSans-Regular.ttf",
+            "OpenSans-Medium": "./src/assets/fonts/OpenSans-Medium.ttf",
+            "OpenSans-Bold": "./src/assets/fonts/OpenSans-Bold.ttf",
+            "OpenSans-ExtraBold": "./src/assets/fonts/OpenSans-ExtraBold.ttf",
+            "OpenSans-Light": "./src/assets/fonts/OpenSans-Light.ttf",
+            "OpenSans-SemiBold": "./src/assets/fonts/OpenSans-SemiBold.ttf",
+            "OpenSans-Italic": "./src/assets/fonts/OpenSans-Italic.ttf",
+            "Zain-Regular": "./src/assets/fonts/Zain-Regular.ttf",
+            "Zain-Bold": "./src/assets/fonts/Zain-Bold.ttf",
+            "Zain-Black": "./src/assets/fonts/Zain-Black.ttf",
+            "Zain-ExtraBold": "./src/assets/fonts/Zain-ExtraBold.ttf",
+            "Zain-Light": "./src/assets/fonts/Zain-Light.ttf",
+            "Zain-ExtraLight": "./src/assets/fonts/Zain-ExtraLight.ttf",
+            "Zain-Italic": "./src/assets/fonts/Zain-Italic.ttf",
+            "Zain-LightItalic": "./src/assets/fonts/Zain-LightItalic.ttf"
+          }
         }
       ]
     ],

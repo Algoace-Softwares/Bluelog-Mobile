@@ -4,97 +4,117 @@ import {Appearance} from 'react-native';
  ** Default colors
  */
 const defaultPalette = {
-  neutral100: '#f5fff8',
-  neutral200: '#d6ffd8',
-  neutral300: '#b7ffb9',
-  neutral400: '#98ff9a',
-  neutral500: '#7aff7a',
-  neutral600: '#60e460',
-  neutral700: '#47cc47',
-  neutral800: '#2eb32e',
+  // Primary blues
+  primary000: '#E4F6F8',
+  primary100: '#B0E0E6',
+  primary200: '#4682B4',
+  primary300: '#007BA7',
+  primary400: '#003366',
+  primary500: '#007B7F',
 
-  primary000: '#EAF3FF',
-  primary100: '#D4E6F2',
-  primary200: '#80a8f7',
-  primary300: '#4071e6',
-  primary400: '#1c47cc',
-  primary500: '#0d2eab',
-  primary600: '#064aac',
-  primary700: '#053c93',
+  // Purple/Indigo scale
+  secondary000: '#ECEBFD',
+  secondary100: '#C4C0F8',
+  secondary200: '#A7A2F4',
+  secondary300: '#7F77EF',
+  secondary400: '#665DEC',
+  secondary500: '#4034E7',
+  secondary600: '#2D25A4',
+  secondary700: '#1B1661',
 
-  secondary000: '#D0D0D0',
-  secondary100: '#a6a6a6',
-  secondary200: '#7a7a7a',
-  secondary300: '#5e5e5e',
-  secondary400: '#424242',
-  secondary500: '#4f4f4f',
-  secondary600: '#383838',
-  secondary700: '#787878',
+  // Greys
+  neutral000: '#FEFEFD',
+  neutral100: '#F8F8F4',
+  neutral200: '#F5F5EE',
+  neutral300: '#DFDFD9',
+  neutral400: '#AEAEA9',
+  neutral500: '#878783',
+  neutral600: '#676764',
+  neutral700: '#5C5A70',
+  neutral800: '#3D3954',
 
-  accent100: '#FFEED4',
-  accent200: '#FFE1B2',
-  accent300: '#FDD495',
-  accent400: '#FBC878',
-  accent500: '#FFBB50',
-  accent600: '#F2C94C',
+  // Orange/Warm
+  accent100: '#FFF7ED',
+  accent200: '#FFE6C8',
+  accent300: '#FFDAAE',
+  accent400: '#FFC988',
+  accent500: '#FFBF71',
+  accent600: '#FFAF4E',
 
-  angry100: '#F2D6CD',
-  angry500: '#EB5757',
+  // Error/Warning colors
+  error100: '#FCECE6',
+  error200: '#F7C4B0',
+  error300: '#F3A88A',
+  error400: '#ED8054',
+  error500: '#E96733',
+  error600: '#CF3B00',
 
-  overlay20: 'rgba(25, 16, 21, 0.2)',
-  overlay50: 'rgba(25, 16, 21, 0.5)',
-  overlay100: 'rgba(6, 74, 172, 0.1)',
-
-  white: '#ffffff',
+  // Base colors
+  white: '#FFFFFF',
+  whiteTransparent: '#FFFFFFCC',
   black: '#000000',
+
+  // Overlays
+  overlay20: 'rgba(5, 3, 17, 0.2)',
+  overlay50: 'rgba(5, 3, 17, 0.5)',
+  overlay80: 'rgba(5, 3, 17, 0.8)',
 } as const;
+
 /*
  ** Dark Color theme
  */
 const darkPalette = {
-  neutral100: '#1e291e',
-  neutral200: '#273427',
-  neutral300: '#314131',
-  neutral400: '#3a4d3a',
-  neutral500: '#445944',
-  neutral600: '#4e664e',
-  neutral700: '#588258',
-  neutral800: '#639f63',
+  // Primary blues - inverted for dark mode
+  primary000: '#003366',
+  primary100: '#007B7F',
+  primary200: '#007BA7',
+  primary300: '#4682B4',
+  primary400: '#B0E0E6',
+  primary500: '#E4F6F8',
 
-  primary000: '#0d2eab',
-  primary100: '#1c47cc',
-  primary200: '#4071e6',
-  primary300: '#80a8f7',
-  primary400: '#d4e6f2',
-  primary500: '#EAF3FF',
-  primary600: '#f0f7ff',
-  primary700: '#f5faff',
+  // Purple/Indigo scale - darker variants
+  secondary000: '#09061D',
+  secondary100: '#0B0725',
+  secondary200: '#0C0829',
+  secondary300: '#1B1661',
+  secondary400: '#231D7F',
+  secondary500: '#2D25A4',
+  secondary600: '#3A2FD2',
+  secondary700: '#4034E7',
 
-  secondary000: '#383838',
-  secondary100: '#424242',
-  secondary200: '#5e5e5e',
-  secondary300: '#7a7a7a',
-  secondary400: '#a6a6a6',
-  secondary500: '#D0D0D0',
-  secondary600: '#dbdbdb',
-  secondary700: '#e6e6e6',
+  // Greys - darker variants
+  neutral000: '#050311',
+  neutral100: '#070417',
+  neutral200: '#09061D',
+  neutral300: '#40476B',
+  neutral400: '#545D8C',
+  neutral500: '#6C78B5',
+  neutral600: '#8A9AE8',
+  neutral700: '#98A9FF',
+  neutral800: '#DFE4FF',
 
-  accent100: '#5a3c00',
-  accent200: '#6b4a00',
-  accent300: '#7b5900',
-  accent400: '#8c6700',
-  accent500: '#9d7600',
-  accent600: '#b98a00',
+  // Keep other colors similar but slightly muted
+  accent100: '#601B00',
+  accent200: '#7D2400',
+  accent300: '#A22E00',
+  accent400: '#CF3B00',
+  accent500: '#E44100',
+  accent600: '#E96733',
 
-  angry100: '#8b3a36',
-  angry500: '#FF6B6B',
+  error100: '#601B00',
+  error200: '#7D2400',
+  error300: '#A22E00',
+  error400: '#CF3B00',
+  error500: '#E44100',
+  error600: '#E96733',
 
-  overlay20: 'rgba(230, 230, 230, 0.2)',
-  overlay50: 'rgba(230, 230, 230, 0.5)',
-  overlay100: 'rgba(240, 240, 240, 0.1)',
-
-  white: '#ffffff',
+  white: '#FFFFFF',
+  whiteTransparent: '#FFFFFF80',
   black: '#000000',
+
+  overlay20: 'rgba(255, 255, 255, 0.2)',
+  overlay50: 'rgba(255, 255, 255, 0.5)',
+  overlay80: 'rgba(255, 255, 255, 0.8)',
 } as const;
 
 export const DEFAULT_COLORS = {
@@ -104,90 +124,104 @@ export const DEFAULT_COLORS = {
    * semantic names as much as possible.
    */
   palette: defaultPalette,
-  /*
-   ** Primary color user in app
-   */
-  primary: defaultPalette.primary600,
+
   /**
-   * A helper for making something see-thru.
+   * Primary theme color used across the app
    */
-  transparent: 'rgba(0, 0, 0, 0)',
+  primary: defaultPalette.primary500,
   /**
-   * The default text color in many components.
+   * Secondary theme color for accents and highlights
    */
-  text: defaultPalette.secondary500,
+  secondary: defaultPalette.secondary500,
   /**
-   * Secondary text information.
-   */
-  textDim: defaultPalette.secondary100,
-  /**
-   * The default color of the screen background.
+   * The default color of the screen background
    */
   background: defaultPalette.white,
   /**
-   * The default color for header
+   * Surface color for cards and elevated elements
    */
-  header: darkPalette.primary700,
+  surface: defaultPalette.neutral000,
+
   /**
-   * The default color of the button
+   * The default text color in many components
    */
-  card: defaultPalette.secondary400,
+  text: defaultPalette.neutral800,
   /**
-   * The default color of the button
+   * Secondary text information with reduced emphasis
    */
-  button: defaultPalette.primary600,
+  textDim: defaultPalette.neutral600,
   /**
-   * The default color of the button border
+   * Light text color for subtle information
    */
-  buttonBorder: defaultPalette.primary600,
+  textLight: defaultPalette.neutral400,
+
   /**
-   * The default color of the button light
+   * The default color for header components
    */
-  buttonLight: defaultPalette.primary100,
+  header: defaultPalette.primary500,
   /**
-   * The default color of the button light
+   * Background color for card components
+   */
+  card: defaultPalette.neutral000,
+  /**
+   * Primary button background color
+   */
+  button: defaultPalette.secondary500,
+  /**
+   * Border color for buttons
+   */
+  buttonBorder: defaultPalette.secondary600,
+  /**
+   * Background color for secondary/light buttons
+   */
+  buttonLight: defaultPalette.secondary000,
+
+  /**
+   * Text color for primary buttons
    */
   buttonTextPrimary: defaultPalette.white,
   /**
-   * The default color of the button light
+   * Text color for secondary buttons
    */
-  buttonTextSeconday: defaultPalette.secondary500,
-  /*
-   ** Default Status bar color
-   */
-  statusBar: defaultPalette.secondary000,
-  /*
-   ** Default loader color
-   */
-  loaderPrimary: defaultPalette.primary600,
-  /*
-   ** Default loader color
-   */
-  loaderSecondary: defaultPalette.secondary500,
+  buttonTextSecondary: defaultPalette.neutral600,
+
   /**
-   * The default border color.
+   * Default status bar color
    */
-  border: defaultPalette.secondary000,
+  statusBar: defaultPalette.primary500,
   /**
-   * The main tinting color.
+   * Primary loader/spinner color
    */
-  tint: defaultPalette.primary500,
+  loaderPrimary: defaultPalette.secondary500,
   /**
-   * A subtle color used for lines.
+   * Secondary loader/spinner color
    */
-  separator: defaultPalette.neutral400,
+  loaderSecondary: defaultPalette.neutral400,
+
   /**
-   * The default color of the notification.
+   * Default border color for elements
    */
-  notification: defaultPalette.accent400,
+  border: defaultPalette.neutral200,
   /**
-   * Error messages.
+   * Color used for subtle separators and dividers
    */
-  error: defaultPalette.angry500,
+  separator: defaultPalette.neutral100,
   /**
-   * Error Background.
+   * Color used for notifications and badges
    */
-  errorBackground: defaultPalette.angry100,
+  notification: defaultPalette.accent500,
+  /**
+   * Color used for error messages
+   */
+  error: defaultPalette.error500,
+  /**
+   * Background color for error states
+   */
+  errorBackground: defaultPalette.error100,
+  /**
+   * A helper for making something see-thru
+   */
+  transparent: 'rgba(0, 0, 0, 0)',
 };
 
 export const DARK_COLORS = {
@@ -197,90 +231,104 @@ export const DARK_COLORS = {
    * semantic names as much as possible.
    */
   palette: darkPalette,
-  /*
-   ** Primary color user in app
-   */
-  primary: darkPalette.primary400,
+
   /**
-   * A helper for making something see-thru.
+   * Primary theme color used across the app (dark mode)
+   */
+  primary: darkPalette.primary500,
+  /**
+   * Secondary theme color for accents and highlights (dark mode)
+   */
+  secondary: darkPalette.secondary500,
+  /**
+   * The default color of the screen background (dark mode)
+   */
+  background: darkPalette.black,
+  /**
+   * Surface color for cards and elevated elements (dark mode)
+   */
+  surface: darkPalette.neutral000,
+
+  /**
+   * The default text color in many components (dark mode)
+   */
+  text: darkPalette.neutral800,
+  /**
+   * Secondary text information with reduced emphasis (dark mode)
+   */
+  textDim: darkPalette.neutral600,
+  /**
+   * Light text color for subtle information (dark mode)
+   */
+  textLight: darkPalette.neutral400,
+
+  /**
+   * The default color for header components (dark mode)
+   */
+  header: darkPalette.primary500,
+  /**
+   * Background color for card components (dark mode)
+   */
+  card: darkPalette.neutral100,
+  /**
+   * Primary button background color (dark mode)
+   */
+  button: darkPalette.secondary500,
+  /**
+   * Border color for buttons (dark mode)
+   */
+  buttonBorder: darkPalette.secondary600,
+  /**
+   * Background color for secondary/light buttons (dark mode)
+   */
+  buttonLight: darkPalette.secondary200,
+
+  /**
+   * Text color for primary buttons (dark mode)
+   */
+  buttonTextPrimary: darkPalette.white,
+  /**
+   * Text color for secondary buttons (dark mode)
+   */
+  buttonTextSecondary: darkPalette.neutral400,
+
+  /**
+   * Default status bar color (dark mode)
+   */
+  statusBar: darkPalette.black,
+  /**
+   * Primary loader/spinner color (dark mode)
+   */
+  loaderPrimary: darkPalette.secondary500,
+  /**
+   * Secondary loader/spinner color (dark mode)
+   */
+  loaderSecondary: darkPalette.neutral400,
+
+  /**
+   * Default border color for elements (dark mode)
+   */
+  border: darkPalette.neutral300,
+  /**
+   * Color used for subtle separators and dividers (dark mode)
+   */
+  separator: darkPalette.neutral200,
+  /**
+   * Color used for notifications and badges (dark mode)
+   */
+  notification: darkPalette.accent500,
+  /**
+   * Color used for error messages (dark mode)
+   */
+  error: darkPalette.error500,
+  /**
+   * Background color for error states (dark mode)
+   */
+  errorBackground: darkPalette.error200,
+  /**
+   * A helper for making something see-thru
    */
   transparent: 'rgba(0, 0, 0, 0)',
-  /**
-   * The default text color in many components.
-   */
-  text: darkPalette.secondary200,
-  /**
-   * Secondary text information.
-   */
-  textDim: darkPalette.secondary100,
-  /**
-   * The default color of the screen background.
-   */
-  background: darkPalette.white,
-  /**
-   * The default color for header
-   */
-  header: darkPalette.primary700,
-  /**
-   * The default color of the button
-   */
-  card: darkPalette.secondary400,
-  /**
-   * The default color of the button
-   */
-  button: darkPalette.primary600,
-  /**
-   * The default color of the button border
-   */
-  buttonBorder: darkPalette.primary600,
-  /**
-   * The default color of the button light
-   */
-  buttonLight: darkPalette.primary100,
-  /**
-   * The default color of the button light
-   */
-  buttonTextPrimary: defaultPalette.secondary200,
-  /**
-   * The default color of the button light
-   */
-  buttonTextSeconday: defaultPalette.secondary500,
-  /*
-   ** Default Status bar color
-   */
-  statusBar: darkPalette.secondary000,
-  /*
-   ** Default loader color
-   */
-  loaderPrimary: darkPalette.primary600,
-  /*
-   ** Default loader color
-   */
-  loaderSecondary: darkPalette.secondary500,
-  /**
-   * The default border color.
-   */
-  border: darkPalette.secondary000,
-  /**
-   * The main tinting color.
-   */
-  tint: darkPalette.primary500,
-  /**
-   * A subtle color used for lines.
-   */
-  separator: darkPalette.neutral400,
-  /**
-   * The default color of the notification.
-   */
-  notification: defaultPalette.accent400,
-  /**
-   * Error messages.
-   */
-  error: darkPalette.angry500,
-  /**
-   * Error Background.
-   */
-  errorBackground: darkPalette.angry100,
 };
 /*
  ** Returning theme based on user theme selection
