@@ -29,31 +29,35 @@
         "expo-splash-screen",
         {
           "image": "./src/assets/images/splash-icon.png",
+          "dark": {
+            "image": "./src/assets/images/splash-icon.png",
+            "backgroundColor": "#0B0928"
+          },
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "backgroundColor": "#E44100"
         }
       ],
       [
         "expo-font",
         {
-          "fonts": {
-            "OpenSans-Regular": "./src/assets/fonts/OpenSans-Regular.ttf",
-            "OpenSans-Medium": "./src/assets/fonts/OpenSans-Medium.ttf",
-            "OpenSans-Bold": "./src/assets/fonts/OpenSans-Bold.ttf",
-            "OpenSans-ExtraBold": "./src/assets/fonts/OpenSans-ExtraBold.ttf",
-            "OpenSans-Light": "./src/assets/fonts/OpenSans-Light.ttf",
-            "OpenSans-SemiBold": "./src/assets/fonts/OpenSans-SemiBold.ttf",
-            "OpenSans-Italic": "./src/assets/fonts/OpenSans-Italic.ttf",
-            "Zain-Regular": "./src/assets/fonts/Zain-Regular.ttf",
-            "Zain-Bold": "./src/assets/fonts/Zain-Bold.ttf",
-            "Zain-Black": "./src/assets/fonts/Zain-Black.ttf",
-            "Zain-ExtraBold": "./src/assets/fonts/Zain-ExtraBold.ttf",
-            "Zain-Light": "./src/assets/fonts/Zain-Light.ttf",
-            "Zain-ExtraLight": "./src/assets/fonts/Zain-ExtraLight.ttf",
-            "Zain-Italic": "./src/assets/fonts/Zain-Italic.ttf",
-            "Zain-LightItalic": "./src/assets/fonts/Zain-LightItalic.ttf"
-          }
+          "fonts": [
+            "./src/assets/fonts/OpenSans-Regular.ttf",
+            "./src/assets/fonts/OpenSans-Medium.ttf",
+            "./src/assets/fonts/OpenSans-Bold.ttf",
+            "./src/assets/fonts/OpenSans-ExtraBold.ttf",
+            "./src/assets/fonts/OpenSans-Light.ttf",
+            "./src/assets/fonts/OpenSans-SemiBold.ttf",
+            "./src/assets/fonts/OpenSans-Italic.ttf",
+            "./src/assets/fonts/Zain-Regular.ttf",
+            "./src/assets/fonts/Zain-Bold.ttf",
+            "./src/assets/fonts/Zain-Black.ttf",
+            "./src/assets/fonts/Zain-ExtraBold.ttf",
+            "./src/assets/fonts/Zain-Light.ttf",
+            "./src/assets/fonts/Zain-ExtraLight.ttf",
+            "./src/assets/fonts/Zain-Italic.ttf",
+            "./src/assets/fonts/Zain-LightItalic.ttf"
+          ]
         }
       ]
     ],

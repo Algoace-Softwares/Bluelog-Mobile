@@ -34,12 +34,13 @@ const defaultPalette = {
   neutral800: '#3D3954',
 
   // Orange/Warm
-  accent100: '#FFF7ED',
-  accent200: '#FFE6C8',
-  accent300: '#FFDAAE',
-  accent400: '#FFC988',
-  accent500: '#FFBF71',
-  accent600: '#FFAF4E',
+
+  accent100: '#601B00',
+  accent200: '#7D2400',
+  accent300: '#A22E00',
+  accent400: '#CF3B00',
+  accent500: '#E44100',
+  accent600: '#E96733',
 
   // Error/Warning colors
   error100: '#FCECE6',
@@ -128,11 +129,11 @@ export const DEFAULT_COLORS = {
   /**
    * Primary theme color used across the app
    */
-  primary: defaultPalette.primary500,
+  primary: defaultPalette.accent500,
   /**
    * Secondary theme color for accents and highlights
    */
-  secondary: defaultPalette.secondary500,
+  secondary: defaultPalette.white,
   /**
    * The default color of the screen background
    */
