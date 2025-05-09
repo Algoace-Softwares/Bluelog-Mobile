@@ -1,69 +1,44 @@
-import { Redirect, Tabs } from "expo-router";
-import MaterialIcons from "@expo/vector-icons/MaterialIcons";
+import MaterialIcons from '@expo/vector-icons/MaterialIcons';
+import {Tabs} from 'expo-router';
 
 export default function TabLayout() {
   return (
     <Tabs
       screenOptions={{
         headerStyle: {
-          backgroundColor: "#f4511e",
+          backgroundColor: '#f4511e',
         },
-        headerTintColor: "#fff",
+        headerTintColor: '#fff',
         headerTitleStyle: {
-          fontWeight: "bold",
+          fontWeight: 'bold',
         },
-      }}
-    >
+      }}>
       <Tabs.Screen
-        name="index"
+        name='index'
         options={{
-          title: "Home",
-          tabBarIcon: ({ color }) => (
-            <MaterialIcons
-              size={28}
-              name="home"
-              color={color}
-            />
-          ),
+          title: 'Home',
+          tabBarIcon: ({color}) => <MaterialIcons size={28} name='home' color={color} />,
         }}
       />
       <Tabs.Screen
-        name="settings"
+        name='settings'
         options={{
-          title: "Setting",
-          tabBarIcon: ({ color }) => (
-            <MaterialIcons
-              size={28}
-              name="settings"
-              color={color}
-            />
-          ),
+          title: 'Setting',
+          tabBarIcon: ({color}) => <MaterialIcons size={28} name='settings' color={color} />,
         }}
       />
       <Tabs.Screen
-        name="profile"
+        name='profile'
         options={{
-          title: "Profile",
-          tabBarIcon: ({ color }) => (
-            <MaterialIcons
-              size={28}
-              name="search"
-              color={color}
-            />
-          ),
+          title: 'Profile',
+          tabBarIcon: ({color}) => <MaterialIcons size={28} name='search' color={color} />,
         }}
       />
       <Tabs.Screen
-        name="security"
+        name='security'
         options={{
-          title: "security",
-          tabBarIcon: ({ color }) => (
-            <MaterialIcons
-              size={28}
-              name="security"
-              color={color}
-            />
-          ),
+          title: 'security',
+          tabBarIcon: ({color}) => <MaterialIcons size={28} name='security' color={color} />,
         }}
       />
     </Tabs>

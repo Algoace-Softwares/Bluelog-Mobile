@@ -5,6 +5,7 @@ import {useEffect} from 'react';
 
 const queryClient = new QueryClient();
 SplashScreen.preventAutoHideAsync();
+
 export default function RootLayout() {
   useEffect(() => {
     SplashScreen?.hide();
