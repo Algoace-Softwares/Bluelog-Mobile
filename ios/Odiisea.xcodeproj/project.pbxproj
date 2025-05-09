@@ -8,58 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		34A99781715A42D9BD56812F /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A891F24B93B04F8C8E3AB852 /* OpenSans-Bold.ttf */; };
-		361EE84AF6CB945F3EC850DB /* libPods-Odiisea.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F1A0B60151BEC396377DBA /* libPods-Odiisea.a */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
-		455A3F1508924BA186E1BC0D /* Zain-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B8D23E8BFD24EF3AE95EFD6 /* Zain-LightItalic.ttf */; };
-		4FCB7FFC01EA4ACFBDE5E5EB /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB17EB697282404AB9472AA3 /* OpenSans-Regular.ttf */; };
-		5063696D9EC445E8B3CA958D /* Zain-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62862BDDFD9843FB8F53865B /* Zain-Light.ttf */; };
-		51BC1015C9C64846ACCCFACC /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 929471FF0FE742258CA2CC8A /* OpenSans-ExtraBold.ttf */; };
-		5599E3A9AE15410CBE0BDAE9 /* Zain-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1C5072012624D96A25056F3 /* Zain-Regular.ttf */; };
-		6925DFDB355E431DB22C2CB8 /* Zain-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9598F56EB5954396B2233C7F /* Zain-Black.ttf */; };
-		69FDD18AA131FDFDB054EE2D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D336F573D75B997E9A4B1A6 /* ExpoModulesProvider.swift */; };
-		80AF5B4A302F487CB8512F4E /* Zain-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2DEC9C17CA540958119C064 /* Zain-ExtraBold.ttf */; };
-		97E64B3D3B939139FCED027E /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 43D73E0A2D089088773F114F /* PrivacyInfo.xcprivacy */; };
-		A5C909508A3D46DBB027B482 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4157901EE3CC4E47B4C4E063 /* OpenSans-SemiBold.ttf */; };
-		B8F212B5CD664318BD242C5A /* Zain-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CE88E29DE014A5AB9C74F65 /* Zain-Italic.ttf */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
-		BFEB19AC2F1547F8AA4795D9 /* Zain-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E4AF69F89968480DA46C6EF0 /* Zain-Bold.ttf */; };
-		C497925AD6F64624A8923B3E /* Zain-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BC196E35D1943A49920648B /* Zain-ExtraLight.ttf */; };
-		DB6AD906E846404DA32525BF /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADED44A6E14E4489A0632829 /* OpenSans-Italic.ttf */; };
-		E3ADB4E87747484FB36F1470 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0673B6CCBFD74617B14C4BC7 /* OpenSans-Light.ttf */; };
 		F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11748412D0307B40044C1D9 /* AppDelegate.swift */; };
-		F3E1B7D2671045229F29E0FE /* OpenSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4910D954786D4E2D8D48AAC4 /* OpenSans-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0673B6CCBFD74617B14C4BC7 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Light.ttf"; path = "../src/assets/fonts/OpenSans-Light.ttf"; sourceTree = "<group>"; };
-		0D336F573D75B997E9A4B1A6 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-Odiisea/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* Odiisea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Odiisea.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Odiisea/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Odiisea/Info.plist; sourceTree = "<group>"; };
-		4157901EE3CC4E47B4C4E063 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-SemiBold.ttf"; path = "../src/assets/fonts/OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
-		43D73E0A2D089088773F114F /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Odiisea/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		4910D954786D4E2D8D48AAC4 /* OpenSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Medium.ttf"; path = "../src/assets/fonts/OpenSans-Medium.ttf"; sourceTree = "<group>"; };
-		4CE88E29DE014A5AB9C74F65 /* Zain-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Zain-Italic.ttf"; path = "../src/assets/fonts/Zain-Italic.ttf"; sourceTree = "<group>"; };
-		5B8D23E8BFD24EF3AE95EFD6 /* Zain-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Zain-LightItalic.ttf"; path = "../src/assets/fonts/Zain-LightItalic.ttf"; sourceTree = "<group>"; };
-		62862BDDFD9843FB8F53865B /* Zain-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Zain-Light.ttf"; path = "../src/assets/fonts/Zain-Light.ttf"; sourceTree = "<group>"; };
-		929471FF0FE742258CA2CC8A /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-ExtraBold.ttf"; path = "../src/assets/fonts/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
-		9598F56EB5954396B2233C7F /* Zain-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Zain-Black.ttf"; path = "../src/assets/fonts/Zain-Black.ttf"; sourceTree = "<group>"; };
-		9B968C1C1DD12C37CB64F575 /* Pods-Odiisea.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Odiisea.release.xcconfig"; path = "Target Support Files/Pods-Odiisea/Pods-Odiisea.release.xcconfig"; sourceTree = "<group>"; };
-		9BC196E35D1943A49920648B /* Zain-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Zain-ExtraLight.ttf"; path = "../src/assets/fonts/Zain-ExtraLight.ttf"; sourceTree = "<group>"; };
-		A891F24B93B04F8C8E3AB852 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Bold.ttf"; path = "../src/assets/fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = Odiisea/SplashScreen.storyboard; sourceTree = "<group>"; };
-		ADED44A6E14E4489A0632829 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Italic.ttf"; path = "../src/assets/fonts/OpenSans-Italic.ttf"; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
-		C1C5072012624D96A25056F3 /* Zain-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Zain-Regular.ttf"; path = "../src/assets/fonts/Zain-Regular.ttf"; sourceTree = "<group>"; };
-		D2DEC9C17CA540958119C064 /* Zain-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Zain-ExtraBold.ttf"; path = "../src/assets/fonts/Zain-ExtraBold.ttf"; sourceTree = "<group>"; };
-		D4F1A0B60151BEC396377DBA /* libPods-Odiisea.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Odiisea.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB17EB697282404AB9472AA3 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Regular.ttf"; path = "../src/assets/fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
-		E4AF69F89968480DA46C6EF0 /* Zain-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Zain-Bold.ttf"; path = "../src/assets/fonts/Zain-Bold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F11748412D0307B40044C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Odiisea/AppDelegate.swift; sourceTree = "<group>"; };
 		F11748442D0722820044C1D9 /* Odiisea-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Odiisea-Bridging-Header.h"; path = "Odiisea/Odiisea-Bridging-Header.h"; sourceTree = "<group>"; };
-		FEEDF61FD7F222FB62345F06 /* Pods-Odiisea.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Odiisea.debug.xcconfig"; path = "Target Support Files/Pods-Odiisea/Pods-Odiisea.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +29,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				361EE84AF6CB945F3EC850DB /* libPods-Odiisea.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,26 +44,14 @@
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				43D73E0A2D089088773F114F /* PrivacyInfo.xcprivacy */,
 			);
 			name = Odiisea;
-			sourceTree = "<group>";
-		};
-		15299023FAFDBCD6A7365390 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FEEDF61FD7F222FB62345F06 /* Pods-Odiisea.debug.xcconfig */,
-				9B968C1C1DD12C37CB64F575 /* Pods-Odiisea.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				D4F1A0B60151BEC396377DBA /* libPods-Odiisea.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -121,9 +70,6 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				DC14108DE1AC42C2979CB303 /* Resources */,
-				15299023FAFDBCD6A7365390 /* Pods */,
-				BE99C18321A111077C909941 /* ExpoModulesProviders */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,45 +93,6 @@
 			path = Odiisea/Supporting;
 			sourceTree = "<group>";
 		};
-		BE99C18321A111077C909941 /* ExpoModulesProviders */ = {
-			isa = PBXGroup;
-			children = (
-				CF4B27EEA60B2658E0414DE8 /* Odiisea */,
-			);
-			name = ExpoModulesProviders;
-			sourceTree = "<group>";
-		};
-		CF4B27EEA60B2658E0414DE8 /* Odiisea */ = {
-			isa = PBXGroup;
-			children = (
-				0D336F573D75B997E9A4B1A6 /* ExpoModulesProvider.swift */,
-			);
-			name = Odiisea;
-			sourceTree = "<group>";
-		};
-		DC14108DE1AC42C2979CB303 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				DB17EB697282404AB9472AA3 /* OpenSans-Regular.ttf */,
-				4910D954786D4E2D8D48AAC4 /* OpenSans-Medium.ttf */,
-				A891F24B93B04F8C8E3AB852 /* OpenSans-Bold.ttf */,
-				929471FF0FE742258CA2CC8A /* OpenSans-ExtraBold.ttf */,
-				0673B6CCBFD74617B14C4BC7 /* OpenSans-Light.ttf */,
-				4157901EE3CC4E47B4C4E063 /* OpenSans-SemiBold.ttf */,
-				ADED44A6E14E4489A0632829 /* OpenSans-Italic.ttf */,
-				C1C5072012624D96A25056F3 /* Zain-Regular.ttf */,
-				E4AF69F89968480DA46C6EF0 /* Zain-Bold.ttf */,
-				9598F56EB5954396B2233C7F /* Zain-Black.ttf */,
-				D2DEC9C17CA540958119C064 /* Zain-ExtraBold.ttf */,
-				62862BDDFD9843FB8F53865B /* Zain-Light.ttf */,
-				9BC196E35D1943A49920648B /* Zain-ExtraLight.ttf */,
-				4CE88E29DE014A5AB9C74F65 /* Zain-Italic.ttf */,
-				5B8D23E8BFD24EF3AE95EFD6 /* Zain-LightItalic.ttf */,
-			);
-			name = Resources;
-			path = "";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -194,13 +101,11 @@
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Odiisea" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
-				604646A0D4AC21AD7AF325A8 /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				6493BC87F877693D4AA4478C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -250,22 +155,6 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				4FCB7FFC01EA4ACFBDE5E5EB /* OpenSans-Regular.ttf in Resources */,
-				F3E1B7D2671045229F29E0FE /* OpenSans-Medium.ttf in Resources */,
-				34A99781715A42D9BD56812F /* OpenSans-Bold.ttf in Resources */,
-				51BC1015C9C64846ACCCFACC /* OpenSans-ExtraBold.ttf in Resources */,
-				E3ADB4E87747484FB36F1470 /* OpenSans-Light.ttf in Resources */,
-				A5C909508A3D46DBB027B482 /* OpenSans-SemiBold.ttf in Resources */,
-				DB6AD906E846404DA32525BF /* OpenSans-Italic.ttf in Resources */,
-				5599E3A9AE15410CBE0BDAE9 /* Zain-Regular.ttf in Resources */,
-				BFEB19AC2F1547F8AA4795D9 /* Zain-Bold.ttf in Resources */,
-				6925DFDB355E431DB22C2CB8 /* Zain-Black.ttf in Resources */,
-				80AF5B4A302F487CB8512F4E /* Zain-ExtraBold.ttf in Resources */,
-				5063696D9EC445E8B3CA958D /* Zain-Light.ttf in Resources */,
-				C497925AD6F64624A8923B3E /* Zain-ExtraLight.ttf in Resources */,
-				B8F212B5CD664318BD242C5A /* Zain-Italic.ttf in Resources */,
-				455A3F1508924BA186E1BC0D /* Zain-LightItalic.ttf in Resources */,
-				97E64B3D3B939139FCED027E /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,43 +198,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		604646A0D4AC21AD7AF325A8 /* [Expo] Configure project */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "[Expo] Configure project";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-Odiisea/expo-configure-project.sh\"\n";
-		};
-		6493BC87F877693D4AA4478C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Odiisea/Pods-Odiisea-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Odiisea/Pods-Odiisea-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -354,28 +206,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Odiisea/Pods-Odiisea-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/EXConstants.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/ExpoConstants_privacy.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/ExpoFileSystem/ExpoFileSystem_privacy.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/ExpoSystemUI/ExpoSystemUI_privacy.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/RCT-Folly/RCT-Folly_privacy.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/React-Core_privacy.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-cxxreact/React-cxxreact_privacy.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage/SDWebImage.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/boost/boost_privacy.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/glog/glog_privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/EXUpdates/EXUpdates.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/RCTI18nStrings.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXConstants.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ExpoConstants_privacy.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ExpoFileSystem_privacy.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ExpoSystemUI_privacy.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RCT-Folly_privacy.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/React-Core_privacy.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/React-cxxreact_privacy.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SDWebImage.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/boost_privacy.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/glog_privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXUpdates.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RCTI18nStrings.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -390,7 +228,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */,
-				69FDD18AA131FDFDB054EE2D /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,11 +236,9 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FEEDF61FD7F222FB62345F06 /* Pods-Odiisea.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = Odiisea/Odiisea.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -422,24 +257,20 @@
 					"-ObjC",
 					"-lc++",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = com.anonymous.Odiisea;
+				PRODUCT_BUNDLE_IDENTIFIER = org.name.Odiisea;
 				PRODUCT_NAME = Odiisea;
 				SWIFT_OBJC_BRIDGING_HEADER = "Odiisea/Odiisea-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B968C1C1DD12C37CB64F575 /* Pods-Odiisea.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = Odiisea/Odiisea.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = Odiisea/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
@@ -453,12 +284,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
-				PRODUCT_BUNDLE_IDENTIFIER = com.anonymous.Odiisea;
+				PRODUCT_BUNDLE_IDENTIFIER = org.name.Odiisea;
 				PRODUCT_NAME = Odiisea;
 				SWIFT_OBJC_BRIDGING_HEADER = "Odiisea/Odiisea-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -515,17 +344,10 @@
 					/usr/lib/swift,
 					"$(inherited)",
 				);
-				LIBRARY_SEARCH_PATHS = "$(SDKROOT)/usr/lib/swift\"$(inherited)\"";
+				LIBRARY_SEARCH_PATHS = "\"$(inherited)\"";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
-				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
-				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -574,15 +396,9 @@
 					/usr/lib/swift,
 					"$(inherited)",
 				);
-				LIBRARY_SEARCH_PATHS = "$(SDKROOT)/usr/lib/swift\"$(inherited)\"";
+				LIBRARY_SEARCH_PATHS = "\"$(inherited)\"";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
-				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
-				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
