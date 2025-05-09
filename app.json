@@ -7,6 +7,7 @@
     "icon": "./src/assets/images/appIcon.png",
     "scheme": "odiisea",
     "userInterfaceStyle": "automatic",
+
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
@@ -29,9 +30,9 @@
       [
         "expo-splash-screen",
         {
-          "image": "./src/assets/images/splashBackLogoLight.png",
+          "image": "./src/assets/images/splashLogo.png",
           "dark": {
-            "image": "./src/assets/images/splashBackLogoDark.png",
+            "image": "./src/assets/images/splashLogo.png",
             "backgroundColor": "#0B0928"
           },
           "imageWidth": 200,
